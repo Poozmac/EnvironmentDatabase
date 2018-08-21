@@ -17,7 +17,6 @@
   padding: 20px 0px 20px 0px;
   bottom: 0;
   width:100%;
-  position: absolute;
 }
 
 .jumbotron {
@@ -45,21 +44,42 @@ body{
   background-color: rgb(96, 41, 126);
 }
 
-.secondary-nav-item {
-  padding: 5px;
-  border: 1px solid blueviolet;
-  border-radius: 10px;
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.secondary-nav-item:hover {
-  background-color: blueviolet;
+#categories {
+  background-color: #015A06;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.secondary-nav-item {
   color: floralwhite;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-item {
+  height: 100%;
+}
+
+.nav-item:hover, .nav-item:active {
+  background-color: rgb(18, 122, 23);
 }
 
 #searchBar {
   padding-top: 20px;
 }
 
-#searchBar form {
-  width: 100%;
+#searchBar input, #searchBar button {
+  height: 50px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#serachResults {
+  min-height: 150px;
 }

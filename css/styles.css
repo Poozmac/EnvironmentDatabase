@@ -12,11 +12,17 @@
 
 #footer{
   background-color: rgb(117, 205, 163);
-  color: #3D0859;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
   bottom: 0;
   width:100%;
+}
+#footer, #footer a {
+  color: #3D0859;
+}
+
+#footer a i {
+  color: white;
 }
 
 .jumbotron {
@@ -82,4 +88,13 @@ body{
 
 #serachResults {
   min-height: 150px;
+}
+
+.fa-envelope-square {
+  font-size: 40px !important;
+}
+
+.btn-mail {
+  width: 40px;
+  height: 37px;
 }
